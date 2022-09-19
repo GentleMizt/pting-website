@@ -87,3 +87,34 @@ nav ul li a{
     right: 7rem;
     bottom: 5rem;
 }
+.cont2{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    border: 1px solid red;
+    gap: 3rem;
+}
+.cont2-left{
+    border: 1px solid blue;
+    flex-basis: 35%;
+}
+.cont2-right{
+    display: grid;
+    grid-template-areas: 
+    "web soft"
+    "app brand";
+    border: 1px solid green;
+    flex-basis: 60%;
+}
+.website{
+    grid-area: web;
+}
+.software{
+    grid-area: soft;
+}
+.app{
+    grid-area: app;
+}
+.brand{
+    grid-area: brand;
+}
