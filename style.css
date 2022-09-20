@@ -41,7 +41,7 @@ nav ul li a{
     font-weight: 400;
 }
 .btn1{
-    background-color: green;
+    background-color: rgb(0, 216, 153);
     padding: 1rem 3rem;
     border-radius: 20px;
     border: none;
@@ -64,7 +64,7 @@ nav ul li a{
     margin-bottom: 3rem;
 }
 .span2{
-    color: green;
+    color: rgb(0, 216, 153);
 }
 .cont1 p{
     font-size: 1.7rem;
@@ -74,7 +74,7 @@ nav ul li a{
 .btn2{
     width: 30%;
     border-radius: 2rem;
-    background-color: green;
+    background-color: rgb(0, 216, 153);
     border: none;
     outline: none;
     padding: 1rem 2rem;
@@ -104,7 +104,7 @@ nav ul li a{
     font-size: 2.5rem;
 }
 .span3{
-    color: green;
+    color: rgb(0, 216, 153);
 }
 .cont2-right{
     display: grid;
@@ -166,7 +166,6 @@ nav ul li a{
     gap: 2rem;
 }
 .cont3-left{
-    border: 1px solid red;
     justify-content: space-between;
     display: flex;
     /* gap: 7.6rem; */
@@ -180,6 +179,11 @@ nav ul li a{
 }
 .cont3b{
     flex-basis: 62.5%;
+    padding: 0px 6rem 0 0;
+}
+.pting-p{
+    margin-top: 2rem;
+    font-size: 1.6rem;
 }
 .cont3b img{
     width: 5rem;
@@ -196,6 +200,19 @@ nav ul li a{
 .cont3c{
     flex-basis: 35%;
 }
+.cont3c{
+    font-size: 2.2rem;
+}
+.span5{
+    color: rgb(0, 216, 153);
+}
 .cont3d{
     flex-basis: 62.5%;
+}
+.cont3d-img{
+    margin-bottom: 5rem;
+}
+.cont3d-img span{
+    color: rgb(0, 216, 153);
+    font-size: 1.6rem;
 }
