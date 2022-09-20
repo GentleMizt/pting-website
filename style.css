@@ -91,13 +91,12 @@ nav ul li a{
     display: flex;
     width: 85%;
     margin: auto;
-    /* border: 1px solid red; */
     gap: 3rem;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
 }
 .cont2-left{
-    /* border: 1px solid blue; */
     flex-basis: 35%;
 }
 .cont2-left h2{
@@ -112,7 +111,6 @@ nav ul li a{
     "web soft"
     "app brand";
     gap: 3rem;
-    /* border: 1px solid green; */
     flex-basis: 60%;
 }
 .cont2-right img{
@@ -164,12 +162,11 @@ nav ul li a{
     width: 85%;
     margin: auto;
     gap: 2rem;
+    padding: 1rem 1.5rem;
 }
 .cont3-left{
     justify-content: space-between;
     display: flex;
-    /* gap: 7.6rem; */
-    /* padding: 2rem 3rem; */
 }
 .cont3a{
     flex-basis: 35%;
@@ -188,14 +185,16 @@ nav ul li a{
 .cont3b img{
     width: 5rem;
 }
+.cont3d-img img{
+    width: 7%;
+}
 .span4{
     font-size: 3rem;
 }
 .cont3-right{
-    border: 1px solid blue;
     justify-content: space-between;
     display: flex;
-    /* justify-content: space-evenly; */
+    padding: 1.5rem 0;
 }
 .cont3c{
     flex-basis: 35%;
@@ -215,4 +214,27 @@ nav ul li a{
 .cont3d-img span{
     color: rgb(0, 216, 153);
     font-size: 1.6rem;
+}
+footer{
+    background-color: rgba(227, 227, 227, 0.5);
+    padding: 3rem 7rem;
+}
+footer h4{
+    font-size: 1.6rem;
+}
+.footer-list1 li{
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+.footer-div{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+.img-footer img img{
+    width: 100%;
+}
+.img-footer span{
+    font-size: 3rem;
 }
