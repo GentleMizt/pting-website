@@ -91,30 +91,111 @@ nav ul li a{
     display: flex;
     width: 85%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 .cont2-left{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     flex-basis: 35%;
+}
+.cont2-left h2{
+    font-size: 2.5rem;
+}
+.span3{
+    color: green;
 }
 .cont2-right{
     display: grid;
     grid-template-areas: 
     "web soft"
     "app brand";
-    border: 1px solid green;
+    gap: 3rem;
+    /* border: 1px solid green; */
     flex-basis: 60%;
+}
+.cont2-right img{
+    width: 15%;
 }
 .website{
     grid-area: web;
 }
+.website h3{
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+.website p{
+    font-size: 1.6rem;
+}
 .software{
     grid-area: soft;
+}
+.software h3{
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+.software p{
+    font-size: 1.6rem;
 }
 .app{
     grid-area: app;
 }
+.app h3{
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+.app p{
+    font-size: 1.6rem;
+}
 .brand{
     grid-area: brand;
+}
+.brand h3{
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+.brand p{
+    font-size: 1.6rem;
+}
+.cont3{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    gap: 2rem;
+}
+.cont3-left{
+    border: 1px solid red;
+    justify-content: space-between;
+    display: flex;
+    /* gap: 7.6rem; */
+    /* padding: 2rem 3rem; */
+}
+.cont3a{
+    flex-basis: 35%;
+}
+.cont3a h3{
+    font-size: 2.4rem
+}
+.cont3b{
+    flex-basis: 62.5%;
+}
+.cont3b img{
+    width: 5rem;
+}
+.span4{
+    font-size: 3rem;
+}
+.cont3-right{
+    border: 1px solid blue;
+    justify-content: space-between;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.cont3c{
+    flex-basis: 35%;
+}
+.cont3d{
+    flex-basis: 62.5%;
 }
