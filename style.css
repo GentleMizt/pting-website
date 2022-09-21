@@ -278,7 +278,72 @@ footer p{
         text-align: center;
         font-size: 2rem;
     }
-    .cont2-right .website{
-        width: 100%;
+    .cont2-right{
+        padding: 2rem 2.5rem;
+        grid-template-areas: 
+        "web"
+        "soft"
+        "app"
+        "brand"
+        ;
+    }     
+    .website, .software, .app, .brand{
+        text-align: center;
+    }
+    .website h3{
+        font-size: 1.5rem;
+    }
+    .website p{
+        font-size: 1.5rem;
+    }
+    .software h3{
+        font-size: 1.5rem;
+    }
+    .software p{
+        font-size: 1.5rem;
+    }
+    .app h3{
+        font-size: 1.5rem;
+    }
+    .app p{
+        font-size: 1.5rem;
+    }
+    .brand h3{
+        font-size: 1.5rem;
+    }
+    .brand p{
+        font-size: 1.5rem;
+    }
+    .cont3-left{
+        flex-direction: column;
+    }
+    .cont3a, .cont3b{
+        text-align: center;
+        padding: 1rem 1.5rem;
+    }
+    .cont3a h3{
+        font-size: 1.7rem;
+    }
+    .pting-p{
+        text-align: center;
+    }
+    .cont3b span{
+        font-size: 2rem
+    }
+    .cont3-right{
+        flex-direction: column;
+    }
+    .cont3c, .cont3d{
+        text-align: center;
+        padding: 1rem 1.5rem;
+    }
+    .cont3c h3{
+        font-size: 2rem;
+    }
+    .cont3c p{
+        font-size: 1.5rem;
+    }
+    .footer-div{
+        flex-direction: column;
     }
 }
