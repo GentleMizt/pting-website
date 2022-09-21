@@ -346,4 +346,10 @@ footer p{
     .footer-div{
         flex-direction: column;
     }
+    .footer-list1{
+        margin: 1.5rem 0
+    }
+    footer p{
+        font-size: 1.2rem;
+    }
 }
