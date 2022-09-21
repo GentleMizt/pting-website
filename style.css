@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital@0;1&family=Poppins:wght@100;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@ html{
     font-size: 67.5%;
 }
 body{
-    font-family: sans-serif;
+    font-family: poppins;
 }
 header{
     height: 90vh;
@@ -100,7 +101,7 @@ nav ul li a{
     flex-basis: 35%;
 }
 .cont2-left h2{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 .span3{
     color: rgb(0, 216, 153);
@@ -229,7 +230,6 @@ footer h4{
 }
 .footer-div{
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
 }
 .img-footer img img{
@@ -237,4 +237,48 @@ footer h4{
 }
 .img-footer span{
     font-size: 3rem;
+}
+.footer-list2 li{
+    margin: 3rem 0;
+    font-size: 1.6rem;
+}
+footer p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+ 
+/* ---------------RESPONSIVE STYLING STARTS HERE ----------------- */
+@media(max-width: 600px){
+    nav ul{
+        display: none;
+    }
+    .cont1{
+    margin-top: 5rem;
+    }
+    .cont1 h1{
+        font-size: 1.5rem;
+    }
+    .cont1 p{
+        font-size: 1.5rem;
+    }
+    .btn2{
+        width: 60%;
+    }
+    .comment img{
+    width: 7%;
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    }
+    .cont2{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .cont2-left h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .cont2-right .website{
+        width: 100%;
+    }
 }
