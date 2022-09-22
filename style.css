@@ -248,7 +248,20 @@ footer p{
 }
  
 /* ---------------RESPONSIVE STYLING STARTS HERE ----------------- */
-@media(max-width: 600px){
+@media(max-width: 800px){
+    nav ul{
+        display: none;
+    }
+    .cont1{
+        margin-top: 4rem;
+    }
+    .comment img{
+       position: absolute;
+       bottom: 3rem;
+       right: 5rem;
+    }
+}
+@media(max-width: 450px){
     nav ul{
         display: none;
     }
