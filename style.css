@@ -248,7 +248,7 @@ footer p{
 }
  
 /* ---------------RESPONSIVE STYLING STARTS HERE ----------------- */
-@media(max-width: 800px){
+@media(max-width: 900px){
     nav ul{
         display: none;
     }
@@ -259,6 +259,33 @@ footer p{
        position: absolute;
        bottom: 3rem;
        right: 5rem;
+    }
+    .cont2-left h2{
+        font-size: 1.5rem;
+    }
+    .website h3{
+        font-size: 1.3rem;
+    }
+    .website p{
+        font-size: 1.3rem;
+    }
+    .software h3{
+        font-size: 1.3rem;
+    }
+    .software p{
+        font-size: 1.3rem;
+    }
+    .app h3{
+        font-size: 1.3rem;
+    }
+    .app p{
+        font-size: 1.3rem;
+    }
+    .brand h3{
+        font-size: 1.3rem;
+    }
+    .brand p{
+        font-size: 1.3rem;
     }
 }
 @media(max-width: 450px){
